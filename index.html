@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="actions" class="actions">
+        <svg id="pen" class="active icon">
+            <use xlink:href="#icon-pen"></use>
+        </svg>
+        <svg id="eraser" class="icon">
+            <use xlink:href="#icon-eraser"></use>
+        </svg>
+        <svg id="clear" class="icon">
+            <use xlink:href="#icon-custom-clear"></use>
+        </svg>
+        <svg id="xiazai" class="icon">
+            <use xlink:href="#icon-xiazai"></use>
+        </svg>
+
+        <ul class="colors">
+            <li id="red" class="red active"></li>
+            <li id="green" class="green"></li>
+            <li id="blue" class="blue"></li>
+        </ul>
+        <ol class="sizes">
+            <li id="thin" class="thin"></li>
+            <li id="thick" class="thick"></li>
+        </ol>
+    </div>
+    <script src="./1.js"></script>
+    <script src="//at.alicdn.com/t/font_801003_79kyvde82ih.js"></script>
+</body>
+
+</html>
